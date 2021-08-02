@@ -57,7 +57,7 @@ pipeline {
 					   --name ${APP_NAME} nodejs:12~${APP_GIT_URL} \
 					   -n${DEV_PROJECT}
 					   
-					   oc expose svc/${APP_NAME}
+					   oc -n${DEV_PROJECT} expose svc/${APP_NAME}
 				'''
             }
         }
