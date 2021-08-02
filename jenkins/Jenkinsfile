@@ -14,7 +14,7 @@ pipeline {
         //NEXUS_SERVER = "https://nexus-cicd.dte-ocp46-b7740f-915b3b336cabec458a7c7ec2aa7c625f-0000.us-east.containers.appdomain.cloud/repository/nodejs"
 
         // DO NOT CHANGE THE GLOBAL VARS BELOW THIS LINE
-        APP_NAME = "Node1App"
+        APP_NAME = "node1app"
     }
 
     stages {
