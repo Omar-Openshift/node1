@@ -4,7 +4,7 @@ pipeline {
         timeout(time: 30, unit: 'MINUTES')
     }
     agent any 
-        tools {nodejs "Whatever"}
+        tools {nodejs "NodejsTool"}
 
     environment {
         //TODO: Edit these vars as per your env
