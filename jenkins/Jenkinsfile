@@ -122,8 +122,8 @@ pipeline {
                 sh '''
 					oc new-app --as-deployment-config \
 					--name ${APP_NAME} \
-					-i ${APP_NAME} \
-					-n {STAGE_PROJECT}
+					-i ${APP_NAME}:stage \
+					-n ${STAGE_PROJECT}
 					
 					oc expose svc/${APP_NAME}
 				'''
