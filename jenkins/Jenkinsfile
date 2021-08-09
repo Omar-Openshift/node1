@@ -12,7 +12,7 @@ pipeline {
         STAGE_PROJECT = "project-stage"
         APP_GIT_URL = "https://github.com/Omar-Openshift/node1"
         //APP_GIT_URL = "https://github.com/galaxy78-openshift-pipeline/nodejs1-app"
-        NEXUS_SERVER = "https://nexus-project-devops.dte-ocp46-ypieoa-915b3b336cabec458a7c7ec2aa7c625f-0000.us-east.containers.appdomain.cloud/repository/npm-group-repo"
+        NEXUS_SERVER = "https://nexus-project-devops.dte-ocp46-jg51k7-915b3b336cabec458a7c7ec2aa7c625f-0000.us-east.containers.appdomain.cloud/repository/npm-group-repo"
 
         // DO NOT CHANGE THE GLOBAL VARS BELOW THIS LINE
         APP_NAME = "node1app"
